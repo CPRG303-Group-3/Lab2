@@ -1,3 +1,3 @@
-const fruitList = ["Apple", "Orange", "Mango", "Cat"];
+const fruitList = ["Apple", "Orange", "Mango"];
 
 export default fruitList;
