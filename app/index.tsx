@@ -33,19 +33,19 @@ export default function App() {
             <Text style={styles.fruitText}>{fruit}</Text>
           </Pressable>
         ))}
-      </View>
 
-      <Pressable>
-        <Pressable
-          onPress={handleLab3Press}
-          style={({ pressed }) => [
-            styles.fruitButton,
-            pressed && styles.buttonPressed,
-          ]}
-        >
-          <Text style={styles.fruitText}>Go to Lab 3</Text>
+        <Pressable>
+          <Pressable
+            onPress={handleLab3Press}
+            style={({ pressed }) => [
+              styles.fruitButton,
+              pressed && styles.buttonPressed,
+            ]}
+          >
+            <Text style={styles.fruitText}>Go to Lab 3</Text>
+          </Pressable>
         </Pressable>
-      </Pressable>
+      </View>
 
       <StatusBar style="light" />
     </View>
