@@ -31,7 +31,7 @@ const Lab3 = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Modify Counter</Text>
+      <Text style={styles.title}>Lab 3 Counter Fun</Text>
       <Text style={styles.subtitle}>Counter: {counter}</Text>
       <Increment onIncrement={increment} counter={counter} />
       <Decrement onDecrement={decrement} counter={counter} />
