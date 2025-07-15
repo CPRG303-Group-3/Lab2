@@ -19,6 +19,10 @@ export default function App() {
     router.push("/lab4");
   };
 
+  const handleLab5Press = () => {
+    router.push("/lab5");
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to Fruit</Text>
@@ -59,6 +63,18 @@ export default function App() {
             ]}
           >
             <Text style={styles.fruitText}>Go to Lab 4</Text>
+          </Pressable>
+        </Pressable>
+
+        <Pressable>
+          <Pressable
+            onPress={handleLab5Press}
+            style={({ pressed }) => [
+              styles.fruitButton,
+              pressed && styles.buttonPressed,
+            ]}
+          >
+            <Text style={styles.fruitText}>Go to Lab 5</Text>
           </Pressable>
         </Pressable>
       </View>
